@@ -1,0 +1,52 @@
+body{
+   margin:30px;
+}
+.container{
+   display:block;
+   margin: auto;
+   background-color: white;  
+   border: 1px solid black;
+   width: 300px;
+   height:600px;
+   padding:20px;
+   text-align: center;
+   box-shadow: 2px 15px 15px gray;
+}
+img{
+     border-radius: 50%;
+     width: 30%;
+     display: block;
+     margin: auto;
+}
+.state{
+   display: flex ;
+   justify-content: space-between;
+   padding: 5px;
+}
+.item{
+   display:flex;
+   justify-content: center;
+   gap: 5px;
+}
+.item img{
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.button{
+   border: 1px black solid;
+   border-radius: 30px;
+   padding :5px;
+   margin: 30px;
+   size: 100px;
+}
+
+.button:hover{
+   background-color: burlywood;
+}
+
+
+
+
+    

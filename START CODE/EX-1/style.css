@@ -1,0 +1,35 @@
+body {
+    background: gray;
+    font-family: sans-serif;
+    margin: 100px;
+}
+div{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+p{
+    padding: 20px;
+}
+button{
+    border-radius: 30px;
+    margin:20px;
+}
+.button1{
+  background-color: aqua;
+}
+.button2{
+    background-color: brown;
+}
+.button3{
+    background-color:blueviolet;
+}
+.button1:hover{
+   background-color: yellow; 
+}
+.button2:hover {
+  background-color: yellow;
+}
+.button3:hover{
+    background-color: yellow;
+}
